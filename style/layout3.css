@@ -1,0 +1,107 @@
+header {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+.layout {
+    background-color: #144e9a;
+}
+
+footer {
+    background-color: #6dbdff;
+    margin-top: 2%;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    text-align: center;
+    width: 90%;
+    margin: 0 2%;
+    align-self: center;
+}
+
+.topsection img {
+    width: 100%;
+    height: 400px;
+
+}
+
+/* .gallery {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .text {
+    width: 60%;
+    text-align: center;
+    justify-self: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .gallery p {
+    width: 60%;
+    text-align: center;
+    justify-self: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* 
+.picture {
+    margin: 1%;
+} */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.description2 {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    align-self: center;
+}
+
+button {
+    background-color: #144e9a;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black solid 1px;
+    margin: -5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #136db6;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}

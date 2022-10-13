@@ -1,0 +1,93 @@
+header {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 2%;
+}
+
+.layout {
+    background-color: #136db6;
+    color: white;
+}
+
+footer {
+    background-color: #6dbdff;
+    margin-top: 2%;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topsection {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.description {
+    background-image: url("https://picsum.photos/900/500");
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-button {
+    width: fit-content;
+    align-self: center;
+}
+
+.myname {
+    backdrop-filter: blur(10px);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(182, 230, 235);
+    width: fit-content;
+    align-self: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.picture p {
+    text-align: center;
+}
+
+.picture img {
+    width: 400px;
+    height: 300px;
+}
+
+button {
+    background-color: #144e9a;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black solid 1px;
+    margin: -5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #136db6;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
